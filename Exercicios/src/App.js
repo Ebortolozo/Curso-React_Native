@@ -1,9 +1,14 @@
 import React from "react";
-import {Text} from "react-native"
+import {View} from "react-native"
 
-function App() {
-    return <Text>Primeiro Componente</Text>
-}
+import  CompPadrao, {Comp1, Comp2}  from "./components/Multi";
+import Primeiro from "./components/Primeiro";
 
-
-export default App;
+export default () => (
+    <View>
+        <CompPadrao />
+        <Comp1 />
+        <Comp2 />
+        <Primeiro />
+    </View>
+)
