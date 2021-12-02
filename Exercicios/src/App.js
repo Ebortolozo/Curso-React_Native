@@ -1,14 +1,15 @@
 import React from "react";
-import {View} from "react-native"
+import {View, StyleSheet} from "react-native"
 
-import  CompPadrao, {Comp1, Comp2}  from "./components/Multi";
-import Primeiro from "./components/Primeiro";
+// import  CompPadrao, {Comp1, Comp2}  from "./components/Multi";
+// import Primeiro from "./components/Primeiro";
+// import MinMax from "./components/MinMax";
+// import Aleatorio from "./components/Aleatorio";
+//import Titulo from "./components/Titulo"
 // import Botao from "./components/Botao";
 import Contador from "./components/Contador";
 
 export default () => (
-    <View>
-        <CompPadrao />
     <View style={corFundo.App}>
         {/* <CompPadrao />
         <Comp1 />
