@@ -7,7 +7,9 @@ import {View, StyleSheet} from "react-native"
 // import Aleatorio from "./components/Aleatorio";
 //import Titulo from "./components/Titulo"
 // import Botao from "./components/Botao";
-import Contador from "./components/Contador";
+// import Contador from "./components/Contador";
+// import Pai from "./components/direta/Pai";
+import Pai from "./components/indireta/Pai";
 
 export default () => (
     <View style={corFundo.App}>
@@ -19,9 +21,11 @@ export default () => (
         <MinMax maior= {90} menor= {20}/> */}
         {/* <Aleatorio maior= {50} menor= {1} /> */}
         {/* <Titulo></Titulo> */}
+        {/* <Contador inicial={100} passo={2}/> */}
+        {/* <Contador/> */}
         {/* <Botao></Botao> */}
-        <Contador inicial={100} passo={2}/>
-        <Contador/>
+        {/* <Pai /> */}
+        <Pai />
     </View>
 )
 

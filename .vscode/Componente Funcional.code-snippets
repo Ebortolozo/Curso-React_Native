@@ -4,7 +4,7 @@
 		"scope": "javascript",
 		"prefix": "compfunc",
 		"body": [
-			"import React from 'React'",
+			"import React from 'react'",
 			"import { Text } from 'react-native'",
 			"import Estilo from './estilo'",
 			"",
